@@ -39,10 +39,10 @@
             this.vendasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.relatóriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.utilitáriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.calculadoraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ajudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.calculadoraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -72,6 +72,7 @@
             this.categoriasToolStripMenuItem.Name = "categoriasToolStripMenuItem";
             this.categoriasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.categoriasToolStripMenuItem.Text = "Categorias";
+            this.categoriasToolStripMenuItem.Click += new System.EventHandler(this.categoriasToolStripMenuItem_Click);
             // 
             // clientesToolStripMenuItem
             // 
@@ -117,6 +118,13 @@
             this.utilitáriosToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
             this.utilitáriosToolStripMenuItem.Text = "Utilitários";
             // 
+            // calculadoraToolStripMenuItem
+            // 
+            this.calculadoraToolStripMenuItem.Name = "calculadoraToolStripMenuItem";
+            this.calculadoraToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
+            this.calculadoraToolStripMenuItem.Text = "Calculadora";
+            this.calculadoraToolStripMenuItem.Click += new System.EventHandler(this.calculadoraToolStripMenuItem_Click);
+            // 
             // ajudaToolStripMenuItem
             // 
             this.ajudaToolStripMenuItem.Name = "ajudaToolStripMenuItem";
@@ -144,13 +152,6 @@
             this.menuStrip1.Size = new System.Drawing.Size(800, 24);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip2";
-            // 
-            // calculadoraToolStripMenuItem
-            // 
-            this.calculadoraToolStripMenuItem.Name = "calculadoraToolStripMenuItem";
-            this.calculadoraToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.calculadoraToolStripMenuItem.Text = "Calculadora";
-            this.calculadoraToolStripMenuItem.Click += new System.EventHandler(this.calculadoraToolStripMenuItem_Click);
             // 
             // frmInicial
             // 

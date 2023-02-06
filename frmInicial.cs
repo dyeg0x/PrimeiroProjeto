@@ -37,5 +37,11 @@ namespace PrimeiroProjeto
         {
             System.Diagnostics.Process.Start("calc");
         }
+
+        private void categoriasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCategorias categorias = new frmCategorias();
+            categorias.Show();
+        }
     }
 }
