@@ -36,5 +36,87 @@ namespace PrimeiroProjeto
         {
 
         }
+
+        private void labelTitulo_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bntAddimage_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtCpf_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtCep_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtEndereço_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtNumber_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+       
+
+        private void bntSave_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bntCancelar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bntFechar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelName_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelCpf_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelCep_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelEndereço_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelNumber_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

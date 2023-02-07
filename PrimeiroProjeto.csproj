@@ -110,5 +110,11 @@
   <ItemGroup>
     <None Include="Resources\Designbolts-Seo-Black-Hat.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\966-9665317_placeholder-image-person-jpg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

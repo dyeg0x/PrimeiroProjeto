@@ -63,6 +63,26 @@ namespace PrimeiroProjeto.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _966_9665317_placeholder_image_person_jpg {
+            get {
+                object obj = ResourceManager.GetObject("966-9665317_placeholder-image-person-jpg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap a {
+            get {
+                object obj = ResourceManager.GetObject("a", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Designbolts_Seo_Black_Hat {
             get {
                 object obj = ResourceManager.GetObject("Designbolts-Seo-Black-Hat", resourceCulture);
