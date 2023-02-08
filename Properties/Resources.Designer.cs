@@ -83,9 +83,49 @@ namespace PrimeiroProjeto.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap d {
+            get {
+                object obj = ResourceManager.GetObject("d", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Designbolts_Seo_Black_Hat {
             get {
                 object obj = ResourceManager.GetObject("Designbolts-Seo-Black-Hat", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tela_de_login {
+            get {
+                object obj = ResourceManager.GetObject("tela de login", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tela_de_login1 {
+            get {
+                object obj = ResourceManager.GetObject("tela de login1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tela_de_login2 {
+            get {
+                object obj = ResourceManager.GetObject("tela de login2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

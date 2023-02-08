@@ -43,5 +43,29 @@ namespace PrimeiroProjeto
             frmCategorias categorias = new frmCategorias();
             categorias.Show();
         }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            labelDate.Text = DateTime.Now.ToLongDateString();
+            labelTime.Text= DateTime.Now.ToShortTimeString();
+        }
+
+        
+
+        private void toolStripStatusLabel1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void toolStripStatusLabel4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmInicial_Load(object sender, EventArgs e)
+        {
+             frmLogin login = new frmLogin();
+            login.ShowDialog();
+        }
     }
 }

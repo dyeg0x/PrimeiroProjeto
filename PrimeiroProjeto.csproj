@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmFornecedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFornecedores.Designer.cs">
+      <DependentUpon>frmFornecedores.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmCategorias.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,11 +70,23 @@
     <Compile Include="frmClientes.Designer.cs">
       <DependentUpon>frmClientes.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmFuncionários.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFuncionários.Designer.cs">
+      <DependentUpon>frmFuncionários.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmInicial.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmInicial.Designer.cs">
       <DependentUpon>frmInicial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -81,8 +99,17 @@
     <EmbeddedResource Include="frmClientes.resx">
       <DependentUpon>frmClientes.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmFornecedores.resx">
+      <DependentUpon>frmFornecedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFuncionários.resx">
+      <DependentUpon>frmFuncionários.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmInicial.resx">
       <DependentUpon>frmInicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -115,6 +142,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tela de login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tela de login1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tela de login2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
