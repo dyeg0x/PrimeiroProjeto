@@ -67,5 +67,11 @@ namespace PrimeiroProjeto
              frmLogin login = new frmLogin();
             login.ShowDialog();
         }
+
+        private void clientesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmClientes clientes = new frmClientes();
+            clientes.ShowDialog();
+        }
     }
 }
