@@ -64,7 +64,11 @@ namespace PrimeiroProjeto
 
         private void frmInicial_Load(object sender, EventArgs e)
         {
-             frmLogin login = new frmLogin();
+             var splash = new Splash();
+            splash.ShowDialog();
+
+
+            frmLogin login = new frmLogin();
             login.ShowDialog();
         }
 
